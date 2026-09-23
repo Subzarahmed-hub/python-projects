@@ -34,8 +34,6 @@ print(game_images[user_choices])
 computer_choice = random.randint(0, 2)
 print("Computer choose:", choices[computer_choice])
 print(game_images[computer_choice])
-# print("You choose:", choices[user_choices])
-# print("Computer chose:", choices[computer_choice])
 if user_choices == computer_choice:
     print("it's a tie")
 elif user_choices == 0 and computer_choice == 2:
