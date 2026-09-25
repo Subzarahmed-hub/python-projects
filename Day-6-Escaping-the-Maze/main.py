@@ -1,3 +1,6 @@
+# Day 6 Final Project: Escaping the Maze
+# Built and tested using Reeborg's World
+# https://reeborg.ca/
 def turn_right():
     turn_left()
     turn_left()
